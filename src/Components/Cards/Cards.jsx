@@ -2,6 +2,8 @@ import React from "react";
 
 export const Cards = ({ characters }) => {
   return (
+    <>
+    <h1>API RICK AND MORTY</h1>
     <div className="cards">
       {characters.map((character) => (
         <div key={character.id} className="card">
@@ -11,5 +13,6 @@ export const Cards = ({ characters }) => {
         </div>
       ))}
     </div>
+    </>
   );
 };
