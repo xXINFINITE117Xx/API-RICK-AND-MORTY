@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+#root {
+  background: gray;
+}
+
 .app {
   text-align: center;
 }
