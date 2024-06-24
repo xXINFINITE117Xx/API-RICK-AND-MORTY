@@ -7,11 +7,40 @@
   text-align: center;
 }
 
+.title {
+  animation: animation-title infinite 6s ;
+}
+
 .button-generating {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
   padding: 10px 20px;
+  background-color: blue;
+  color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+.button-generating:hover {
+  background-color: red;
+}
+
+@keyframes animation-title {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: violet;
+  }
+  50% {
+    color: orange;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
 }
 
 .cards {
